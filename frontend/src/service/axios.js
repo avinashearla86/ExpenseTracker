@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseURL: 'http://localhost:4000',
+    baseURL: 'https://expensetracker-6373.onrender.com',
   });
   
 instance.interceptors.request.use(

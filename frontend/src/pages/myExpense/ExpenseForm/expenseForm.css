@@ -1,0 +1,54 @@
+.expenseForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        input{
+            background-color: white;
+            padding: 10px;
+            border: 1px black solid;
+            outline: none;
+            border-radius: 5px;
+        }
+        button{
+            margin-left: 0;
+            width: 100%;
+            padding: 10px;
+            background: rgba(16, 120, 194, 0.533);
+            border: none;
+            outline: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background: rgba(0, 200, 255, 0.467);
+            }
+        }
+    }
+}
+.expenseForm .modal-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    background-color: white;
+    padding: 10px;
+    border: 1px black solid;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  

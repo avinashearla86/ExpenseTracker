@@ -1,0 +1,15 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.loading{
+  position: absolute;
+  padding: 20px;
+  background: rgba(17, 25, 40, 0.5);
+  color: white;
+  top: 45%;
+  left: 45%;
+  border-radius: 5px;
+}
